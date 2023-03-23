@@ -38,13 +38,13 @@
             </li>
             <li>
               Powered by
-              <a href="https://hexo.io/">
+              <a href="https://hexo.io/1">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
                   Hexo
                 </b>
               </a>
               & Themed by
-              <a href="https://github.com/obsidianext/hexo-theme-obsidianext">
+              <a href="https://github.com/obsidianext/hexo-theme-obsidianext1">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
                   Aurora v{{ themeConfig.version }}
                 </b>
