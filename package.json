@@ -4,7 +4,6 @@
   "description": "Futuristic auroral theme for Hexo.",
   "author": "Benny Guo <bennyxguo6@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/auroral-ui/hexo-theme-aurora",
   "keywords": [
     "hexo",
     "hexo-theme",
@@ -64,7 +63,7 @@
     "hexo-pagination": "^1.0.0",
     "hexo-util": "^2.4.0",
     "js-yaml": "^4.0.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "postcss": "^7",
     "prettier": "^2.2.1",
     "runjs": "^4.4.2",
