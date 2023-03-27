@@ -34,23 +34,23 @@
             <li>
               Copyright © {{ currentYear }}
               <b class="font-extrabold">{{ themeConfig.site.author }}</b>
-              . <br>All Rights Reserved.
+              . All Rights Reserved.
             </li>
-            <!-- <li>
+            <li>
               Powered by
-              <a href="https://hexo.io/1">
+              <a href="https://hexo.io/">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
                   Hexo
                 </b>
               </a>
               & Themed by
-              <a href="https://github.com/obsidianext/hexo-theme-obsidianext1">
+              <a href="https://github.com/obsidianext/hexo-theme-obsidianext">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
                   Aurora v{{ themeConfig.version }}
                 </b>
               </a>
               .
-            </li> -->
+            </li>
             <li
               v-if="
                 themeConfig.site.beian.number !== '' ||

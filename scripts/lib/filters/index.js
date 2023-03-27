@@ -52,6 +52,8 @@ module.exports = function (hexo) {
     hexo.config.theme_config
   )
 
+  console.log(themeConfig)
+
   const lang = themeConfig.site.language
 
   hexo.extend.filter.register('after_post_render', function (data) {
