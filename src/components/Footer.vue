@@ -32,11 +32,11 @@
         >
           <ul class="flex flex-col gap-1.5">
             <li>
-              Copyright © 2019 - {{ currentYear }}
+              Copyright © {{ currentYear }}
               <b class="font-extrabold">{{ themeConfig.site.author }}</b>
-              . All Rights Reserved.
+              . <br>All Rights Reserved.
             </li>
-            <li>
+            <!-- <li>
               Powered by
               <a href="https://hexo.io/1">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
@@ -50,7 +50,7 @@
                 </b>
               </a>
               .
-            </li>
+            </li> -->
             <li
               v-if="
                 themeConfig.site.beian.number !== '' ||
