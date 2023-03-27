@@ -36,7 +36,7 @@
               <b class="font-extrabold">{{ themeConfig.site.author }}</b>
               . All Rights Reserved.
             </li>
-            <li>
+            <!-- <li>
               Powered by
               <a href="https://hexo.io/">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
@@ -50,7 +50,7 @@
                 </b>
               </a>
               .
-            </li>
+            </li> -->
             <li
               v-if="
                 themeConfig.site.beian.number !== '' ||
